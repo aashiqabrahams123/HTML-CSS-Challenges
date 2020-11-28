@@ -30,7 +30,7 @@ section {
 }
 
 img {
-  border: 5px solid #8075ff;
+  
 }
 
 h1,
@@ -76,6 +76,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
 #badge {
@@ -108,8 +109,23 @@ footer {
   border: 5px solid #747c92;
 }
 
+#bearpic1 {
+
+  border: 5px solid green
+
+}
+
+#bearpic2 {
+
+  border: 5px solid blue
+}
+#bearpic3 {
+
+  border: 5px solid yellow
+}
+
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .tigers {
@@ -192,4 +208,7 @@ footer {
 
 .programs .card {
   display: block;
+}
+p {
+  margin-bottom: 50px;
 }
